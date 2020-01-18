@@ -1,0 +1,2 @@
+class JobTrackersController < ApplicationController
+end

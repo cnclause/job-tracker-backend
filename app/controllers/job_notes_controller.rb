@@ -1,0 +1,2 @@
+class JobNotesController < ApplicationController
+end

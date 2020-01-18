@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  jobtracker: one
+  notes: MyText
+  interview_questions: MyText
+  prep_questions: MyText
+  improvement: MyText
+
+two:
+  jobtracker: two
+  notes: MyText
+  interview_questions: MyText
+  prep_questions: MyText
+  improvement: MyText

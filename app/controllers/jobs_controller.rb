@@ -2,12 +2,12 @@ class JobsController < ApplicationController
 
     def index
         @jobs = Jobs.all
-        render json: @jobs
+        render json: @jobs, include: :users
     end
 
     def show
         @job = Job.find(params[:id])
-        render json: @job
+        render json: @job, include: :users
     end
 
     def create

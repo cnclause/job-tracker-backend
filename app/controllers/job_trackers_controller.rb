@@ -21,7 +21,8 @@ class JobTrackersController < ApplicationController
         redirect_to "http://localhost:3000"
 
     end
-    def create
+
+    def update
         @job_tracker = JobTracker.find(params[:id])
         @job_tracker = JobTracker.update({
             user_id: params[:user_id],

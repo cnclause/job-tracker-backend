@@ -14,7 +14,7 @@ class JobTrackersController < ApplicationController
             phone_screening: params[:phone_screening],
             interview_one: params[:interview_one],
             interview_two: params[:interview_two],
-           interview_three: params[:interview_three]
+           interview_three: params[:interview_three],
            interview_four: params[:interview_four]
         })
 
@@ -32,7 +32,7 @@ class JobTrackersController < ApplicationController
             phone_screening: params[:phone_screening],
             interview_one: params[:interview_one],
             interview_two: params[:interview_two],
-           interview_three: params[:interview_three]
+           interview_three: params[:interview_three],
            interview_four: params[:interview_four]
         })
     end

@@ -1,3 +1,3 @@
 class JobNote < ApplicationRecord
-  belongs_to :jobTracker
+  belongs_to :job_tracker
 end

@@ -1,7 +1,7 @@
 class JobNotesController < ApplicationController
 
     def index
-        @job_notes = JobNotes.all
+        @job_notes = JobNote.all
         render json: @job_notes
     end
 
@@ -19,8 +19,6 @@ class JobNotesController < ApplicationController
     end
 
     def update
-        @job_note = JobTracker.find(params[:id])
-
         @job_note = JobNote.update({
             job_tracker_id: params[:job_tracker_id],
             notes: params[:notes],
